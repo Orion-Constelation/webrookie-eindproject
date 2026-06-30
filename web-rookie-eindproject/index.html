@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webshop</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar">
+        <h2 class="Title">The Headset Shop</h2>
+        <div id="cart">
+            <button id="cartLink"><a href="cart.html"><img src="1413908.png" class="cartIcon"></a></button>
+            <span id="cartCounter">0</span>
+        </div>
+    </div>
+    <div id="sidebar">
+        <h2>Filters</h2>
+        <div id="Selectors">
+            <fieldset>
+                <legend>
+                    Select a brand:
+                </legend>
+                <div>
+                    <input type="radio" id="brandAll" name="brand" value="all">
+                    <label for="brandAll">All</label>
+                </div>
+                <div>
+                    <input type="radio" id="sony" name="brand" value="Sony">
+                    <label for="sony">Sony</label>
+                </div>
+                <div>
+                    <input type="radio" id="jbl" name="brand" value="JBL">
+                    <label for="jbl">JBL</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Select a color:
+                </legend>
+                <div>
+                    <input type="radio" id="colorAll" name="color" value="all">
+                    <label for="colorAll">All</label>
+                </div>
+                <div>
+                    <input type="radio" id="black" name="color" value="black" class="color">
+                    <label for="black">black</label>
+                </div>
+                <div>
+                    <input type="radio" id="white" name="color" value="white" class="color">
+                    <label for="white">white</label>
+                </div>
+                <div>
+                    <input type="radio" id="blue" name="color" value="blue" class="color">
+                    <label for="blue">blue</label>
+                </div>
+                <div>
+                    <input type="radio" id="beige" name="color" value="beige" class="color">
+                    <label for="beige">beige</label>
+                </div>
+                <div>
+                    <input type="radio" id="champagne" name="color" value="champagne" class="color">
+                    <label for="champagne">champagne</label>
+                </div>
+                <div>
+                    <input type="radio" id="purple" name="color" value="purple" class="color">
+                    <label for="purple">purple</label>
+                </div>
+                <div>
+                    <input type="radio" id="green" name="color" value="green" class="color">
+                    <label for="green">green</label>
+                </div>
+                <div>
+                    <input type="radio" id="red" name="color" value="red" class="color">
+                    <label for="red">red</label>
+                </div>
+                <div>
+                    <input type="radio" id="pink" name="color" value="pink" class="color">
+                    <label for="pink">pink</label>
+                </div>
+                <div>
+                    <input type="radio" id="blue, red" name="color" value="blue, red" class="color">
+                    <label for="blue, red">blue, red</label>
+                </div>
+                <div>
+                    <input type="radio" id="blue, pink" name="color" value="blue, pink" class="color">
+                    <label for="blue, pink">blue, pink</label>
+                </div>
+                <div>
+                    <input type="radio" id="silver" name="color" value="silver" class="color">
+                    <label for="silver">silver</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Noise Canceling
+                </legend>
+                <div>
+                    <input type="radio" id="NCall" name="NC" value="NCall" class="NC">
+                    <label for="NCall">All</label>
+                </div>
+                <div>
+                    <input type="radio" id="active" name="NC" value="active" class="NC">
+                    <label for="active">active</label>
+                </div>
+                <div>
+                    <input type="radio" id="passive" name="NC" value="passive" class="NC">
+                    <label for="passive">passive</label>
+                </div>
+                <div>
+                    <input type="radio" id="NCfalse" name="NC" value="NCfalse" class="NC">
+                    <label for="NCfalse">No Noise Canceling</label>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <div id="page">
+        <div id="headsets">
+
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
